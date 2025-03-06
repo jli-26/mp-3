@@ -85,7 +85,7 @@ export function Home() {
     return (
         <MainWrapper>
             <MainTitle>Home Page</MainTitle>
-            <StyledImage src="../images/IMG_9329.JPG" alt="Image of Jenny" />
+            <StyledImage src="/images/IMG_9329.JPG" alt="Image of Jenny" />
             <MainContent id="main">
                 <StyledParagraph>
                     My name is Jenny Li. I am currently a junior studying Computer Science at Boston University.
@@ -114,7 +114,7 @@ export function Certifications(){
             <li>Certified Software Engineer (CSE) – ICCP <u>(October 2024)</u></li>
             <li> Professional Software Developer (PSD) – IEEE <u>(October 2024)</u> </li>
         </ul>
-        <StyledImage src ="../src/images/images.png" alt="certifications" />
+        <StyledImage src ="/images/images.png" alt="certifications" />
        </MainWrapper> 
     );
 }
@@ -131,11 +131,11 @@ export function Education() {
           <li>
             B.A in Computer Science | <em>Boston University, MA </em> May 2026 
           </li>
-          <StyledImage src="../src/images/Boston-University-Logo.png" alt="BU school Logo" />
+          <StyledImage src="/images/Boston-University-Logo.png" alt="BU school Logo" />
           <li>High School Diploma | <em>Brooklyn Technical High School NY</em> June 2022</li>
-          <StyledImage src="../src/images/footer_logo.png" alt="BU school Logo" />
+          <StyledImage src="/images/footer_logo.png" alt="BU school Logo" />
           <li>Middle School Diploma | | <em>I.S. 73 NY</em> June 2022</li>
-          <StyledImage src="src/images/beelogofornewsposts.png" alt="BU school Logo" />
+          <StyledImage src="/images/beelogofornewsposts.png" alt="BU school Logo" />
         </ul>
       </MainWrapper>
     );
@@ -171,7 +171,7 @@ export function References(){
     return(    
     <MainWrapper>
         <MainTitle>Reference Page</MainTitle>
-        <StyledImage src = "src/images/pngimg.com - phone_PNG48919.png" alt = "phone image"/>
+        <StyledImage src = "/images/pngimg.com - phone_PNG48919.png" alt = "phone image"/>
         <StyledParagraph> Here is a list of my professional and personal refernces. My professional references can atest for my character within both my academic work, but also
             my offical work in my lab research and internships. Meanwhile my personal refernces can atest for my character as a coworker, family member, and a friend. 
         </StyledParagraph>
@@ -273,7 +273,7 @@ export function Projects() {
         <MainWrapper>
             <MainTitle>Project Page</MainTitle>
             <CalculatorWrapper>
-                <StyledImage src="src/images/pngimg.com - calculator_PNG7939.png" alt="Calculator Image" />
+                <StyledImage src="/images/pngimg.com - calculator_PNG7939.png" alt="Calculator Image" />
                 <StyledParagraph>
                     This is my caculator project I worked on in my CS 391 class. This is a very basic caculator that will caculate the first input (minus, plus, multiple, divide, or
                     power) to the second input. 
