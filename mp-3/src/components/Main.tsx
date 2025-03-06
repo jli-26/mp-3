@@ -123,6 +123,10 @@ export function Education() {
     return (
       <MainWrapper>
         <MainTitle>Education Page</MainTitle>
+          <StyledParagraph> 
+              Education is importat to ones success. I have attended middle school and highschool in New York at the schools listed below. I am not 
+              attending school at Boston University as a Computer Science student. I am also considering applying for a Masters program. 
+          </StyledParagraph>
         <ul>
           <li>
             B.A in Computer Science | <em>Boston University, MA </em> May 2026 
@@ -270,6 +274,10 @@ export function Projects() {
             <MainTitle>Project Page</MainTitle>
             <CalculatorWrapper>
                 <StyledImage src="src/images/pngimg.com - calculator_PNG7939.png" alt="Calculator Image" />
+                <StyledParagraph>
+                    This is my caculator project I worked on in my CS 391 class. This is a very basic caculator that will caculate the first input (minus, plus, multiple, divide, or
+                    power) to the second input. 
+                </StyledParagraph>
                 <Label>First Number:</Label>
                 <Input
                     id="first"
