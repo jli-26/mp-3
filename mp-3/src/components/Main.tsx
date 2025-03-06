@@ -168,6 +168,9 @@ export function References(){
     <MainWrapper>
         <MainTitle>Reference Page</MainTitle>
         <StyledImage src = "src/images/pngimg.com - phone_PNG48919.png" alt = "phone image"/>
+        <StyledParagraph> Here is a list of my professional and personal refernces. My professional references can atest for my character within both my academic work, but also
+            my offical work in my lab research and internships. Meanwhile my personal refernces can atest for my character as a coworker, family member, and a friend. 
+        </StyledParagraph>
         <h3>Professional</h3>
         <StyledTable border={1}>
             <thead>
