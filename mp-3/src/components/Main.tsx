@@ -85,7 +85,7 @@ export function Home() {
     return (
         <MainWrapper>
             <MainTitle>Home Page</MainTitle>
-            <StyledImage src="../src/images/IMG_9329.JPG" alt="Image of Jenny" />
+            <StyledImage src="../images/IMG_9329.JPG" alt="Image of Jenny" />
             <MainContent id="main">
                 <StyledParagraph>
                     My name is Jenny Li. I am currently a junior studying Computer Science at Boston University.
