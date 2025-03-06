@@ -14,7 +14,7 @@ const FooterWrapper = styled.footer`
 export default function Footer(){
     return(
         <FooterWrapper>
-            <p>All rights reserved: <a href ="">Credits</a>&#169;</p>
+            <p>All rights reserved: <a href="#">Credits</a>&#169;</p>
         </FooterWrapper>
     )
 }
